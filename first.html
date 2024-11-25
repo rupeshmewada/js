@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>First title</title>
+
+</head>
+
+<body>
+    <h1>java script test </h1>
+    <p id="para">
+
+    </p>
+    <h3 class="head">
+    </h3>
+
+    <button id="disp" style="margin: 20px 0;" onclick="disp()">click to display</button>
+    <br>
+    <button onclick="document.write(1+2)">click to add</button>
+
+    <script>
+
+        document.write("doc.write");
+        let numb = document.getElementsByClassName('head').innerHTML = "my class content"
+        // document.getElementsByClassName("head").length;
+        document.getElementById('para').innerHTML = numb
+
+        document.getElementById('para').innerHTML = 2 + 2 / 2;
+        document.getElementById('para').style.color = "red";
+        document.getElementById('para').style.backgroundColor = "yellow";
+        document.getElementById('para').style.width = "50px";
+        console.log(4 + 5)
+        function disp() {
+            document.getElementById("head").innerHTML = "hello disp funtion "
+        }
+
+        var a
+        a = 10
+        a = 18
+        let b = 20
+        b = 40
+        document.write(a)
+        document.write("/n")
+        document.write(b)
+
+    </script>
+
+</body>
+
+</html>

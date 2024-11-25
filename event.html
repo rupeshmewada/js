@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>event </h3>
+
+    <button onclick="test(10,20)">click </button>
+    <button onclick="this.innerHTML = Date()">click </button>
+    <p id="ram">
+
+    </p>
+    <script>
+        function test(a,b) {
+            // return alert("ram")
+            // let a = document.getElementBy Id("ram").innerHTML = "hello click"
+            // return a;
+            let as = document.getElementById("ram").innerHTML = a+b
+            return as;
+
+        }
+
+      
+
+    </script>
+</body>
+
+</html>
